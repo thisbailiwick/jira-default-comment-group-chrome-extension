@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+*.pid
+*.seed
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+
+# Build and dist directories
+/dist
+/build
+
+# Environment files
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.map
