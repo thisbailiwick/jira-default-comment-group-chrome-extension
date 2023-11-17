@@ -1,4 +1,4 @@
-const projectIds = ['CND', 'TCC'];
+const projectIds = ['CND', 'TCC', 'CU'];
 const groupName = 'abt-employees';
 
 function findElementWithText(node) {
