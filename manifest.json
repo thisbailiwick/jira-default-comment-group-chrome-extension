@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Jira Default Comment Group",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Automatically adds comments to the specified group for specific projects",
   "permissions": ["activeTab"],
   "content_scripts": [
