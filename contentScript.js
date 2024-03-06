@@ -25,7 +25,7 @@ function findElementWithText(node) {
 function handleInputFocus(event) {
 	const input = event.target;
 
-	if (input.placeholder === 'Add a comment…') {
+	if (input.placeholder === 'Add a comment…' || input.placeholder === '• You have an unsaved comment') {
 		const projectId = projectIds.find(id =>
 			(window.location.href.includes('selectedIssue=' + id) || window.location.href.includes('browse/' + id)));
 
