@@ -35,17 +35,17 @@ function handleInputFocus(event) {
 
 		//set timeout to wait for 1 second
 		setTimeout(function () {
-			const button = document.querySelector('[data-testid="issue-comment-base.ui.comment.comment-visibility.comment-visibility-wrapper"] button');
+		const button = document.querySelector('[data-testid="issue-comment-base.ui.comment.comment-visibility.comment-visibility-wrapper"] button');
 
-			if (button) {
-				button.click();
-				const container = document.querySelector('.comment-visibility__menu-list');
-				const elementWithText = findElementWithText(container);
-				if (elementWithText) {
-					elementWithText.click();
-				}
+		if (button) {
+			button.click();
+			const container = document.querySelector('.comment-visibility__menu-list');
+			const elementWithText = findElementWithText(container);
+			if (elementWithText) {
+				elementWithText.click();
 			}
-		}, 250);
+		}
+		}, 500);
 	}
 }
 
